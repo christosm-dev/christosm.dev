@@ -1,6 +1,6 @@
 ---
 icon: material/server-security
-title: VPS Sandbox Platform
+title: VPS Demo Sandbox Platform
 ---
 
 # Zensical Sandbox Platform

@@ -1,6 +1,6 @@
 ---
 icon: simple/ansible
-title: Ansible Docker Demo
+title: Project 3: Ansible Docker Demo
 ---
 
 # Project 3: Ansible - Configure Docker Containers

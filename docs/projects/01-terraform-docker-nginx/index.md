@@ -1,6 +1,6 @@
 ---
 icon: simple/terraform
-title: Terraform Docker NGINX
+title: Project 1: Terraform + Docker
 ---
 
 # Project 1: Terraform + Docker - Provision nginx Container

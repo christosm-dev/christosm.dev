@@ -1,5 +1,5 @@
 ---
-title: Learning Notes
+title: "Learning Notes"
 ---
 
 # Ansible Project - Hands-On Learning Notes

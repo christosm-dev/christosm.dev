@@ -1,5 +1,5 @@
 ---
-title: Mini Projects Overview
+title: "Mini Projects Overview"
 ---
 
 # Infrastructure as Code & DevOps Mini-Projects

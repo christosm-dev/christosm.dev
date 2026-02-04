@@ -1,5 +1,5 @@
 ---
-title: Variables Guide
+title: "Variables Guide"
 ---
 
 # Terraform Variables Guide - Project 1

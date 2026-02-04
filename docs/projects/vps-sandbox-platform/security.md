@@ -1,5 +1,5 @@
 ---
-title: Security
+title: "Security"
 ---
 
 # Security Architecture - Zensical Sandbox Platform

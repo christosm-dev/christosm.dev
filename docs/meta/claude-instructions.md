@@ -1,6 +1,6 @@
 ---
 icon: simple/claude
-title: Claude Instructions
+title: "Claude Instructions"
 ---
 
 # Portfolio Project Structure - Instructions for Claude

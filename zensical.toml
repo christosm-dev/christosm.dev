@@ -17,7 +17,7 @@ site_name = "Christos Michaelides - My 2026 Portfolio"
 # meaningful description of the site content for use by search engines.
 #
 # Read more: https://zensical.org/docs/setup/basics/#site_description
-site_description = "A basic portfolio project of my recent learnings."
+site_description = "A basic documentation website with some of my recent learnings."
 
 # The site_author attribute. This is used in the HTML head element.
 #
@@ -27,7 +27,7 @@ site_author = "Christos Michaelides"
 # The site_url is the canonical URL for your site. When building online
 # documentation you should set this.
 # Read more: https://zensical.org/docs/setup/basics/#site_url
-site_url = "https://christosm.dev"
+site_url = "https://www.christosm.dev/"
 
 # The copyright notice appears in the page footer and can contain an HTML
 # fragment.
@@ -259,13 +259,13 @@ features = [
 # ----------------------------------------------------------------------------
 [[project.theme.palette]]
 scheme = "default"
-toggle.icon = "lucide/dark"
-toggle.name = "Switch to light mode"
+toggle.icon = "lucide/sun"
+toggle.name = "Switch to dark mode"
 
 [[project.theme.palette]]
 scheme = "slate"
-toggle.icon = "lucide/sun"
-toggle.name = "Switch to dark mode"
+toggle.icon = "lucide/moon"
+toggle.name = "Switch to light mode"
 
 # ----------------------------------------------------------------------------
 # In the "font" subsection you can configure the fonts used. By default, fonts
@@ -301,6 +301,6 @@ toggle.name = "Switch to dark mode"
 # ----------------------------------------------------------------------------
 #[[project.extra.social]]
 #icon = "fontawesome/brands/github"
-link = "https://github.com/ChristosDev75/christosm.dev"
+#link = "https://github.com/user/repo"
 
 

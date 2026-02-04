@@ -1,4 +1,4 @@
-# VPS Demo Sandbox Platform
+# Zensical Sandbox Platform
 
 A secure, production-grade sandboxed code execution platform for portfolio demonstrations. This project showcases DevOps, SRE, and Platform Engineering skills through real-world infrastructure automation, containerization, and security practices.
 
@@ -22,29 +22,29 @@ This platform enables portfolio visitors to execute code examples in isolated, s
                  ▼
 ┌────────────────────────────────────────────────┐
 │              Contabo VPS                       │
-│  ┌──────────────────────────────────────────┐  │
-│  │     Docker Compose Stack                 │  │
-│  │                                          │  │
-│  │  ┌────────────┐                          │  │
-│  │  │  FastAPI   │ ◄─── HTTP Requests       │  │
-│  │  │   Backend  │                          │  │
-│  │  └─────┬──────┘                          │  │
-│  │        │                                 │  │
-│  │        │ Creates sandboxes               │  │
-│  │        ▼                                 │  │
-│  │  ┌──────────────────────────┐            │  │
-│  │  │  Ephemeral Containers    │            │  │
-│  │  │  - Python 3.11           │            │  │
-│  │  │  - Node.js 18            │            │  │
-│  │  │  - Bash 5.2              │            │  │
-│  │  │                          │            │  │
-│  │  │  Security:               │            │  │
-│  │  │  • No network access     │            │  │
-│  │  │  • Read-only filesystem  │            │  │
-│  │  │  • Resource limits       │            │  │
-│  │  │  • Dropped capabilities  │            │  │
-│  │  └──────────────────────────┘            │  │
-│  └──────────────────────────────────────────┘  │
+│  ┌──────────────────────────────────────────┐ │
+│  │     Docker Compose Stack                 │ │
+│  │                                          │ │
+│  │  ┌────────────┐                         │ │
+│  │  │  FastAPI   │ ◄─── HTTP Requests      │ │
+│  │  │   Backend  │                         │ │
+│  │  └─────┬──────┘                         │ │
+│  │        │                                │ │
+│  │        │ Creates sandboxes              │ │
+│  │        ▼                                │ │
+│  │  ┌──────────────────────────┐          │ │
+│  │  │  Ephemeral Containers    │          │ │
+│  │  │  - Python 3.11           │          │ │
+│  │  │  - Node.js 18            │          │ │
+│  │  │  - Bash 5.2              │          │ │
+│  │  │                          │          │ │
+│  │  │  Security:               │          │ │
+│  │  │  • No network access     │          │ │
+│  │  │  • Read-only filesystem  │          │ │
+│  │  │  • Resource limits       │          │ │
+│  │  │  • Dropped capabilities  │          │ │
+│  │  └──────────────────────────┘          │ │
+│  └──────────────────────────────────────────┘ │
 └────────────────────────────────────────────────┘
 ```
 

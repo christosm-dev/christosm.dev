@@ -1,7 +1,3 @@
----
-icon: simple/terraform
----
-
 # Project 1: Terraform + Docker - Provision nginx Container
 
 **Project Series:** 1 of 7  

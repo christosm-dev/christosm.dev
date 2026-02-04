@@ -1,7 +1,3 @@
----
-icon: simple/kubernetes 
----
-
 # Project 2: Kubernetes - Deploy Python Flask App to Minikube
 
 **Project Series:** 2 of 7  

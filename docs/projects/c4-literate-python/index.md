@@ -255,12 +255,6 @@ git add docs/architecture/workspace.dsl
 - [ ] VS Code extension for real-time validation
 - [ ] Multi-workspace support for monorepos
 
-## Interview Talking Points
-
-- "Built a developer tool that generates C4 architecture diagrams from annotated Python source code, following literate programming principles"
-- "Designed an annotation schema with validation rules, enforcing architectural consistency at the code level"
-- "Zero runtime dependencies - stdlib-only implementation demonstrating careful dependency management"
-
 ## Resources
 
 - [C4 Model](https://c4model.com/) by Simon Brown

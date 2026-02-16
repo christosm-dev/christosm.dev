@@ -52,7 +52,7 @@ nav = [
     { "Project 2: Kubernetes + Python" = "projects/02-k8s-python-app/index.md" },
     { "Project 3: Ansible + Docker" = "projects/03-ansible-docker-demo/index.md" },
     { "C4 Literate Python" = "projects/c4-literate-python/index.md" },
-    { "Project 4: VPS Sandbox Platform" = "projects/04-vps-sandbox-platform/index.md" },
+    { "VPS Demo Platform" = "projects/04-vps-sandbox-platform/index.md" },
   ]},
   { "Meta" = [
     { "Claude Instructions" = "meta/claude-instructions.md" },

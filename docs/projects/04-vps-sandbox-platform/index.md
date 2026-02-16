@@ -1,9 +1,9 @@
 ---
 icon: material/server-security
-title: "Project 4: VPS Sandbox Platform"
+title: "VPS Demo Platform"
 ---
 
-# Project 4: VPS Demo Sandbox Platform
+# VPS Demo Platform
 
 > A secure, production-grade sandboxed code execution platform. **[View source on GitHub](https://github.com/christosm-dev/portfolio/tree/main/vps-sandbox-platform)**
 

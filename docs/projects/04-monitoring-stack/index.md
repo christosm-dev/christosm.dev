@@ -11,6 +11,27 @@ title: "Project 4: Prometheus + Grafana Monitoring Stack"
 
 This project demonstrates observability fundamentals by building a Prometheus and Grafana monitoring stack where all dashboards are defined as JSON code. A Flask application exposes custom metrics via `prometheus_client` while Node Exporter collects host system telemetry. Grafana loads both the Prometheus datasource and two purpose-built dashboards automatically on startup — no manual configuration required — showcasing the GitOps principle of treating dashboards as versioned, reproducible artefacts.
 
+```
+┌──────────────────────────────────────────────────────┐
+│               Docker network: monitoring              │
+│                                                      │
+│  ┌─────────────┐   scrape :5000   ┌──────────────┐  │
+│  │  Flask app  │◄─────────────────│              │  │
+│  │  :5000      │                  │  Prometheus  │  │
+│  └─────────────┘                  │  :9090       │  │
+│                                   │              │  │
+│  ┌─────────────┐   scrape :9100   │              │  │
+│  │Node Exporter│◄─────────────────│              │  │
+│  │  :9100      │                  └──────┬───────┘  │
+│  └─────────────┘                         │          │
+│                                    query │          │
+│                                  ┌───────▼───────┐  │
+│                                  │    Grafana    │  │
+│                                  │    :3000      │  │
+│                                  └───────────────┘  │
+└──────────────────────────────────────────────────────┘
+```
+
 ## Technology Stack
 
 | Technology | Role |
@@ -52,29 +73,6 @@ project4-monitoring-stack/
 ├── scripts/
 │   └── generate_load.sh                      # Weighted traffic generator for demo data
 └── README.md
-```
-
-## Architecture
-
-```
-┌──────────────────────────────────────────────────────┐
-│               Docker network: monitoring              │
-│                                                      │
-│  ┌─────────────┐   scrape :5000   ┌──────────────┐  │
-│  │  Flask app  │◄─────────────────│              │  │
-│  │  :5000      │                  │  Prometheus  │  │
-│  └─────────────┘                  │  :9090       │  │
-│                                   │              │  │
-│  ┌─────────────┐   scrape :9100   │              │  │
-│  │Node Exporter│◄─────────────────│              │  │
-│  │  :9100      │                  └──────┬───────┘  │
-│  └─────────────┘                         │          │
-│                                    query │          │
-│                                  ┌───────▼───────┐  │
-│                                  │    Grafana    │  │
-│                                  │    :3000      │  │
-│                                  └───────────────┘  │
-└──────────────────────────────────────────────────────┘
 ```
 
 ## Future Work

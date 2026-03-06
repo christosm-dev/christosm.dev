@@ -53,6 +53,7 @@ nav = [
     { "Project 3: Ansible + Docker" = "projects/03-ansible-docker-demo/index.md" },
     { "Project 4: Prometheus + Grafana" = "projects/04-monitoring-stack/index.md" },
     { "Project 5: GitHub Actions CI/CD" = "projects/05-cicd-github-actions/index.md" },
+    { "Project 6: Helm Chart Packaging" = "projects/06-helm-chart/index.md" },
     { "C4 Literate Python" = "projects/c4-literate-python/index.md" },
     { "VPS Demo Platform" = "projects/vps-demo-platform/index.md" },
   ]},

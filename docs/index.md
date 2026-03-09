@@ -16,4 +16,4 @@ The projects on the side bar highlight some of the technologies and concepts I h
 
 I have a personal interest in visualising architecture and the C4 Literate Python project is a Vibe Coding project I started recently to explore feasibility of an idea I had around it.
 
-This documentation website is accompanied by an infrastructure project, which is hosted on a Contabo VPS in an environment, which is built as part of this portfolio and also documented here.
+This documentation website is accompanied by an infrastructure project on a Contabo VPS environment, which is built as part of this portfolio and also documented here.

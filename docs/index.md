@@ -12,10 +12,8 @@ As an engineer, I love communicating software architecture, technical knowledge 
 
 # My 2026 Portfolio
 
-This documentation website is a basic portfolio I am starting to collate for my imminent interviews and professional certification preparation planned for 2026.
+The projects on the side bar highlight some of the technologies and concepts I have worked on in the recent years. 
 
-The projects on the side bar on the left have information about technologies and concepts I have revisited recently and the projects I practiced to refresh my knowledge in these knowledge domain areas.
+I have a personal interest in visualising architecture and the C4 Literate Python project is a Vibe Coding project I started recently to explore feasibility of an idea I had around it.
 
-I have a special interest in visualising architecture and the C4 Literate Python project is a project I started recently to explore feasibility of an idea I had recently around it.
-
-This documentation website will be accompanied by an infrastructure project, which will be hosted on a Contabo VPS soon in a sandboxed environment, which will be custom built as part of this portfolio and documented here.
+This documentation website is accompanied by an infrastructure project, which is hosted on a Contabo VPS in an environment, which is built as part of this portfolio and also documented here.
